@@ -1,50 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My GitHub Page</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GitHub Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        .header {
+            font-size: 2em;
+            color: gold;
+            font-style: italic;
+        }
+        .content {
+            display: flex;
+        }
+        .left {
+            flex: 1;
+        }
+        .right {
+            margin-left: 20px;
+        }
+        .right img {
+            width: 150px;
+            border-radius: 50%;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <button class="note-button" onclick="openNote()">Note</button>
-  </div>
 
-  <div id="note-modal" class="modal">
-    <div class="modal-content">
-      <span class="close-button" onclick="closeNote()">&times;</span>
-      <div class="note-text">
-        <h2>Welcome to GitHub Pages</h2>
-        <p>You can use the <a href="https://github.com/semah0702/semah0702.github.io/edit/main/README.md">editor on GitHub</a> to maintain and preview the content for your website in Markdown files.</p>
-        <p>Whenever you commit to this repository, GitHub Pages will run <a href="https://jekyllrb.com/">Jekyll</a> to rebuild the pages in your site, from the content in your Markdown files.</p>
-        <h3>Markdown</h3>
-        <p>Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for</p>
-        <pre><code>Syntax highlighted code block
+    <div class="header">Welcome to my page</div>
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)</code></pre>
-        <p>For more details see <a href="https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax">Basic writing and formatting syntax</a>.</p>
-        <h3>Jekyll Themes</h3>
-        <p>Your Pages site will use the layout and styles from the Jekyll theme you have selected in your <a href="https://github.com/semah0702/semah0702.github.io/settings/pages">repository settings</a>. The name of this theme is saved in the Jekyll <code>_config.yml</code> configuration file.</p>
-        <h3>Support or Contact</h3>
-        <p>Having trouble with Pages? Check out our <a href="https://docs.github.com/categories/github-pages-basics/">documentation</a> or <a href="https://support.github.com/contact">contact support</a> and we’ll help you sort it out.</p>
-      </div>
+    <div class="content">
+        <div class="left">
+            <h2>About Me</h2>
+            <p>Sol tarafta kendin hakkında bir şeyler yazmak için bu alanı kullanabilirsin. Örneğin:</p>
+            <ul>
+                <li>🔭 Şu anda üzerinde çalıştığım projeler: ...</li>
+                <li>🌱 Öğrenmekte olduğum konular: ...</li>
+                <li>💬 Bana sormak istediğiniz bir şey varsa: ...</li>
+                <li>📫 Bana ulaşabileceğiniz e-posta: ...</li>
+            </ul>
+        </div>
+        <div class="right">
+            <img src="https://github.com/username/repository/blob/main/path_to_your_image.jpg" alt="Profile Picture">
+        </div>
     </div>
-  </div>
 
-  <script src="scripts.js"></script>
 </body>
 </html>
-
