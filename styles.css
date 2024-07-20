@@ -8,12 +8,12 @@ body {
 }
 
 header {
-    font-size: 24px;
+    font-size: 20px; /* Küçültülmüş başlık boyutu */
     font-weight: bold;
     background: #1f1f23;
     color: #dcdcdc;
     padding: 1em 0;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4); /* Daha hafif gölge */
 }
 
 nav {
@@ -26,15 +26,15 @@ nav {
 }
 
 .logo {
-    font-size: 2em;
+    font-size: 1.8em; /* Küçültülmüş logo boyutu */
     font-style: italic;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
 }
 
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 1em;
+    gap: 0.75em; /* Daha dar aralık */
 }
 
 .nav-links a {
@@ -44,13 +44,13 @@ nav {
 }
 
 .section {
-    padding: 4em 1em;
+    padding: 3em 1em; /* Küçültülmüş iç boşluk */
     text-align: center;
     background-color: #1f1f23;
     border: 2px solid #dcdcdc;
     border-radius: 12px;
-    margin: 2em;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    margin: 1.5em; /* Küçültülmüş dış boşluk */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Hafif gölge */
 }
 
 #home {
@@ -69,28 +69,28 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2em;
+    gap: 1.5em; /* Daha dar aralık */
 }
 
 .profile-pic {
-    width: 200px;
-    height: 200px;
+    width: 180px; /* Küçültülmüş profil resmi boyutu */
+    height: 180px;
     border-radius: 50%;
     object-fit: cover;
     border: 4px solid #dcdcdc;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); /* Hafif gölge */
 }
 
 .about-text {
-    max-width: 700px;
+    max-width: 600px; /* Küçültülmüş maksimum genişlik */
     text-align: justify;
-    font-size: 18px;
+    font-size: 16px; /* Küçültülmüş yazı boyutu */
 }
 
 #projects .projects-grid {
     display: flex;
     justify-content: center;
-    gap: 1em;
+    gap: 0.75em; /* Daha dar aralık */
     flex-wrap: wrap;
 }
 
@@ -99,8 +99,8 @@ nav {
     border: 2px solid #dcdcdc;
     border-radius: 8px;
     padding: 1em;
-    width: 300px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    width: 280px; /* Küçültülmüş kart boyutu */
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); /* Hafif gölge */
 }
 
 footer {
@@ -108,13 +108,14 @@ footer {
     color: #dcdcdc;
     text-align: center;
     padding: 1em 0;
+    font-size: 14px; /* Küçültülmüş footer yazı boyutu */
 }
 
 form {
     display: flex;
     flex-direction: column;
     gap: 1em;
-    max-width: 600px;
+    max-width: 500px; /* Küçültülmüş maksimum genişlik */
     margin: 0 auto;
 }
 
@@ -125,19 +126,20 @@ input, textarea {
     border-radius: 5px;
     font-family: 'Courier New', Courier, monospace;
     color: #dcdcdc;
+    font-size: 14px; /* Küçültülmüş yazı boyutu */
 }
 
 .contact-box {
     position: fixed;
     bottom: 0;
     right: 0;
-    width: 200px;
-    height: 330px; 
+    width: 180px; /* Küçültülmüş genişlik */
+    height: 340px; /* Küçültülmüş yükseklik */
     background: rgba(44, 44, 49, 0.6); /* Şeffaf arka plan */
     border: 2px solid #dcdcdc;
     border-radius: 12px;
     padding: 1em;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Hafif gölge */
     color: rgba(220, 220, 220, 0.8); /* Şeffaf yazı rengi */
     transition: background 0.3s ease, color 0.3s ease; /* Geçiş efekti */
 }
@@ -146,7 +148,6 @@ input, textarea {
     background: rgba(44, 44, 49, 0.9); /* Üzerine gelindiğinde daha belirgin arka plan */
     color: #dcdcdc; /* Üzerine gelindiğinde belirgin yazı rengi */
 }
-
 
 button {
     background-color: #aa530e;
@@ -157,4 +158,5 @@ button {
     cursor: pointer;
     font-family: 'Courier New', Courier, monospace;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    font-size: 14px; /* Küçültülmüş yazı boyutu */
 }
