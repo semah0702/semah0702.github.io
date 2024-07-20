@@ -100,7 +100,7 @@ nav {
     border-radius: 8px;
     padding: 1em;
     width: 280px; /* Küçültülmüş kart boyutu */
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); /* Hafif gölge */
+    box-shadow: 0 0 8px rgba(220, 220, 220, 1); /* Hafif gölge */
 }
 
 footer {
@@ -138,7 +138,7 @@ input, textarea {
     background: rgba(44, 44, 49, 0.6); /* Şeffaf arka plan */
     border: 2px solid #dcdcdc;
     border-radius: 12px;
-    padding: 1em;
+    padding: 0.5em;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Hafif gölge */
     color: rgba(220, 220, 220, 0.8); /* Şeffaf yazı rengi */
     transition: background 0.3s ease, color 0.3s ease; /* Geçiş efekti */
