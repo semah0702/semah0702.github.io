@@ -133,13 +133,20 @@ input, textarea {
     right: 0;
     width: 200px;
     height: 330px; 
-    background: #2c2c31;
-    opacity: 0.8;
+    background: rgba(44, 44, 49, 0.6); /* Şeffaf arka plan */
     border: 2px solid #dcdcdc;
     border-radius: 12px;
     padding: 1em;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    color: rgba(220, 220, 220, 0.8); /* Şeffaf yazı rengi */
+    transition: background 0.3s ease, color 0.3s ease; /* Geçiş efekti */
 }
+
+.contact-box:hover {
+    background: rgba(44, 44, 49, 0.9); /* Üzerine gelindiğinde daha belirgin arka plan */
+    color: #dcdcdc; /* Üzerine gelindiğinde belirgin yazı rengi */
+}
+
 
 button {
     background-color: #aa530e;
