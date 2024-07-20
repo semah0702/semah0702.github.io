@@ -4,50 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My GitHub Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-        }
-        .header {
-            font-size: 2em;
-            color: gold;
-            font-style: italic;
-        }
-        .content {
-            display: flex;
-        }
-        .left {
-            flex: 1;
-        }
-        .right {
-            margin-left: 20px;
-        }
-        .right img {
-            width: 150px;
-            border-radius: 50%;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <div class="header">Welcome to my page</div>
-
-    <div class="content">
-        <div class="left">
-            <h2>About Me</h2>
-            <p>....</p>
-            <ul>
-                <li>🔭  ...</li>
-                <li>🌱  ...</li>
-                <li>💬  ...</li>
-                <li>📫  semahoncebe@gmail.com </li>
+    <header>
+        <nav>
+            <div class="logo">My GitHub Page</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-        </div>
-        <div class="right">
-            <img src="...">
-        </div>
-    </div>
+        </nav>
+    </header>
 
+    <section id="home" class="section">
+        <h1>Welcome to My GitHub Page</h1>
+        <p>This is a simple and elegant template for your GitHub Page.</p>
+        <button onclick="scrollToSection('about')">Learn More</button>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>Information about yourself, your work, and your interests.</p>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <!-- Repeat this block for each project -->
+            <div class="project-card">
+                <h3>Project Title</h3>
+                <p>Short project description goes here.</p>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My GitHub Page. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
