@@ -32,3 +32,15 @@ function updateMessage() {
 setInterval(updateMessage, 3000); // Change message every 3 seconds
 
 // Optional: Add event listeners for other dynamic features
+
+document.addEventListener('DOMContentLoaded', function() {
+    const contactBox = document.querySelector('.contact-box');
+
+    contactBox.style.opacity = 0;
+    contactBox.style.transition = 'opacity 0.5s ease-in-out';
+
+    setTimeout(() => {
+        contactBox.style.opacity = 1;
+    }, 1000); // Sayfa yüklendiğinde kutunun görünmesini sağlar
+});
+
