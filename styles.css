@@ -8,6 +8,7 @@ body {
 }
 
 header {
+    size: 20px;
     background: #F4A261;
     color: #333;
     padding: 1em 0;
