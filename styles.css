@@ -26,7 +26,7 @@ nav {
 }
 
 .logo {
-    font-size: 1.5em;
+    font-size: 1.8em; /* Küçültülmüş logo boyutu */
     font-style: italic;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
     display: flex;
@@ -37,12 +37,6 @@ nav {
 .logo i {
     font-size: 1em; /* Simgenin boyutunu ayarlayın */
     color: #ffcc66; /* Simgenin rengini ayarlayın */
-}
-
-.logo {
-    font-size: 1.8em; /* Küçültülmüş logo boyutu */
-    font-style: italic;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
 }
 
 .nav-links {
@@ -74,7 +68,7 @@ nav {
 #home .external-link {
     display: inline-block;
     margin-top: 1em;
-    color: #ffcc66;
+    color: #ffcc66; /* Turuncu renk */
     text-decoration: none;
     font-style: italic;
 }
@@ -166,6 +160,8 @@ input, textarea {
 .contact-box h3 {
     margin: 0;
     font-size: 14px; /* Başlık boyutu */
+    border-bottom: 2px solid #ffcc66; /* Turuncu çizgi */
+    padding-bottom: 0.5em; /* Çizgi ve metin arasında boşluk */
 }
 
 .contact-box p {
@@ -189,7 +185,6 @@ input, textarea {
     font-size: 12px; /* Küçük yazı boyutu */
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
 }
-
 
 .contact-box:hover {
     background: rgba(44, 44, 49, 0.9); /* Üzerine gelindiğinde daha belirgin arka plan */
