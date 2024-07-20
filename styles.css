@@ -9,7 +9,7 @@ body {
 
 header {
     size: 20px;
-    background: #F4A261;
+    background: #dbceb0;
     color: #333;
     padding: 1em 0;
 }
@@ -94,7 +94,7 @@ nav {
 }
 
 footer {
-    background: #625750;
+    background: #dbceb0;
     color: #333;
     text-align: center;
     padding: 1em 0;
@@ -121,7 +121,7 @@ input, textarea {
     bottom: 0;
     right: 0;
     width: 200px;
-    height: 250px; 
+    height: 300px; 
     background: #E76F51;
     opacity: 0.4;
     border: 1px solid #ddd;
