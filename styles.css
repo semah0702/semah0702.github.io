@@ -109,6 +109,7 @@ nav {
     padding: 1em;
     width: 280px; /* Küçültülmüş kart boyutu */
     box-shadow: 0 0 8px rgba(220, 220, 220, 1); /* Hafif gölge */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
 }
 
 footer {
@@ -123,30 +124,34 @@ form {
     display: flex;
     flex-direction: column;
     gap: 1em;
-    max-width: 500px; /* Küçültülmüş maksimum genişlik */
+    max-width: 600px; /* Genişliği artırdım */
     margin: 0 auto;
+    background: #2c2c31; /* Form arka plan rengi */
+    padding: 1.5em; /* Yeterli iç boşluk */
+    border-radius: 8px; /* Köşeleri yuvarladım */
+    border: 1px solid #dcdcdc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Hafif gölge */
 }
 
 input, textarea {
-    background: #2c2c31;
-    padding: 0.5em;
+    background: #1f1f23; /* Form alanı arka plan rengi */
+    padding: 0.75em; /* Daha büyük iç boşluk */
     border: 1px solid #dcdcdc;
     border-radius: 5px;
     font-family: 'Courier New', Courier, monospace;
     color: #dcdcdc;
-    font-size: 14px; /* Küçültülmüş yazı boyutu */
+    font-size: 16px; /* Küçültülmüş yazı boyutu */
 }
 
 .contact-box {
     position: fixed;
     bottom: 0;
     right: 0;
-    width: 180px; /* Küçültülmüş genişlik */
-    height: 340px; /* Küçültülmüş yükseklik */
-    background: rgba(44, 44, 49, 0.6); /* Şeffaf arka plan */
+    width: 250px; /* Genişliği artırdım */
+    background: rgba(44, 44, 49, 0.7); /* Şeffaf arka plan */
     border: 2px solid #dcdcdc;
     border-radius: 12px;
-    padding: 1em; /* Yeterli iç boşluk */
+    padding: 1em;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Hafif gölge */
     color: rgba(220, 220, 220, 0.8); /* Şeffaf yazı rengi */
     transition: background 0.3s ease, color 0.3s ease; /* Geçiş efekti */
@@ -154,19 +159,19 @@ input, textarea {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    font-size: 12px; /* Küçük yazı boyutu */
+    font-size: 14px; /* Küçük yazı boyutu */
 }
 
 .contact-box h3 {
     margin: 0;
-    font-size: 14px; /* Başlık boyutu */
+    font-size: 16px; /* Başlık boyutu */
     border-bottom: 2px solid #ffcc66; /* Turuncu çizgi */
     padding-bottom: 0.5em; /* Çizgi ve metin arasında boşluk */
 }
 
 .contact-box p {
     margin: 0;
-    font-size: 12px; /* Yazı boyutu */
+    font-size: 14px; /* Yazı boyutu */
 }
 
 .contact-box .contact-info {
@@ -182,7 +187,7 @@ input, textarea {
     padding: 0.5em;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 12px; /* Küçük yazı boyutu */
+    font-size: 14px; /* Küçük yazı boyutu */
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
 }
 
