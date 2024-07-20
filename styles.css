@@ -47,13 +47,13 @@ nav {
 }
 
 #home {
-    background: #f4f4f4;
+    background: #f3eded;
 }
 
 #home .external-link {
     display: inline-block;
     margin-top: 1em;
-    color: #007bff;
+    color: #f5c16c;
     text-decoration: none;
     font-style: italic;
 }
@@ -73,7 +73,7 @@ nav {
 }
 
 .about-text {
-    max-width: 600px;
+    max-width: 700px;
     text-align: left;
 }
 
@@ -93,7 +93,7 @@ nav {
 }
 
 footer {
-    background: #a3d8f4;
+    background: #aa530e;
     color: #333;
     text-align: center;
     padding: 1em 0;
@@ -108,6 +108,7 @@ form {
 }
 
 input, textarea {
+    background: #aa530e;
     padding: 0.5em;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -119,7 +120,7 @@ input, textarea {
     bottom: 0;
     right: 0;
     width: 300px;
-    background: #f4e1d2;
+    background: #aa530e;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 1em;
@@ -127,7 +128,7 @@ input, textarea {
 }
 
 button {
-    background-color: #a3d8f4;
+    background-color: #aa530e;
     color: #333;
     border: none;
     padding: 0.5em;
