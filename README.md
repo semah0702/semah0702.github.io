@@ -1,14 +1,5 @@
 # **_Welcome to my page_**
 
-<img align="right" src="https://github.com/username/repository/blob/main/images/profile.jpg" width="150" alt="Profile Picture">
-
-## About Me
-Sol tarafta kendin hakkında bir şeyler yazmak için bu alanı kullanabilirsin. Örneğin:
-
-- 🔭 Şu anda üzerinde çalıştığım projeler: ...
-- 🌱 Öğrenmekte olduğum konular: ...
-- 💬 Bana sormak istediğiniz bir şey varsa: ...
-- 📫 Bana ulaşabileceğiniz e-posta: ...
 
 ## Welcome to GitHub Pages
 
