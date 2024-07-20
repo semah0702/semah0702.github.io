@@ -93,7 +93,7 @@ nav {
 }
 
 footer {
-    background: #aa530e;
+    background: #625750;
     color: #333;
     text-align: center;
     padding: 1em 0;
@@ -109,7 +109,7 @@ form {
 
 input, textarea {
     background: #36BA98;
-    padding: 0.5em;
+    padding: 0.10em;
     border: 1px solid #ddd;
     border-radius: 5px;
     font-family: 'Courier New', Courier, monospace;
@@ -120,7 +120,7 @@ input, textarea {
     bottom: 0;
     right: 0;
     width: 200px;
-    height: 200px; 
+    height: 250px; 
     background: #E76F51;
     opacity: 0.4;
     border: 1px solid #ddd;
