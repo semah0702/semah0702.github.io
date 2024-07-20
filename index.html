@@ -21,56 +21,46 @@
 
     <section id="home" class="section">
         <h1>Welcome to My GitHub Page</h1>
-        <p>...</p>
-        <button onclick="scrollToSection('about')">Learn More
-             <a href="https://github.com/semah702/notepad">Look at me</a>
-        </button>
+        <p>Explore my projects and learn more about my skills and experiences.</p>
+        <button onclick="scrollToSection('about')">Learn More</button>
+        <a href="https://github.com/semah702/notepad" class="external-link">Look at me</a>
     </section>
 
     <section id="about" class="section">
         <h2>About Me</h2>
-        <p>Education & Continuous Learning:
-
-            Management Information Systems student committed to continuous learning and development.
-            Technical Expertise:
-            
-            HTML
-            Python
-            Machine learning
-            C languages
-            Practical experience in using React
-            Organizational & Leadership Skills:
-            
-            Active involvement in various clubs
-            Experience as a student leader
-            Proficient in handling accounting records
-            Theatre Experience:
-            
-            Over four years of experience in theatre
-            Acting training
-            Engagement in administrative roles within theatre
-            Skills Application:
-            
-            Enhanced ability to plan and organize effectively
-            Commitment to leveraging skills and experiences to contribute meaningfully to projects and teams</p>
+        <div class="about-content">
+            <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+            <div class="about-text">
+                <p><strong>Education & Continuous Learning:</strong><br>
+                Management Information Systems student committed to continuous learning and development.</p>
+                <p><strong>Technical Expertise:</strong><br>
+                HTML, Python, Machine Learning, C languages, Practical experience in using React</p>
+                <p><strong>Organizational & Leadership Skills:</strong><br>
+                Active involvement in various clubs, Experience as a student leader, Proficient in handling accounting records</p>
+                <p><strong>Theatre Experience:</strong><br>
+                Over four years of experience in theatre, Acting training, Engagement in administrative roles within theatre</p>
+                <p><strong>Skills Application:</strong><br>
+                Enhanced ability to plan and organize effectively, Commitment to leveraging skills and experiences to contribute meaningfully to projects and teams</p>
+            </div>
+        </div>
     </section>
 
     <section id="projects" class="section">
         <h2>My Projects</h2>
         <div class="projects-grid">
-            <!-- Repeat this block for each project -->
             <div class="project-card">
-                <h3>notepad</h3>
-                <p>...</p>
+                <h3>Notepad</h3>
+                <p>A simple and efficient notepad application to keep your notes organized.</p>
                 <a href="https://github.com/semah702/notepad">View Project</a>
             </div>
+            <!-- Add more project cards as needed -->
         </div>
     </section>
 
     <section id="contact" class="section">
         <h2>Contact Me</h2>
         <form>
-              <label for="name">Name:</label>
+            <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
 
             <label for="email">Email:</label>
@@ -78,6 +68,7 @@
 
             <label for="message">Message:</label>
             <textarea id="message" name="message" required></textarea>
+
             <button type="submit">Send</button>
         </form>
     </section>
