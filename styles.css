@@ -26,6 +26,20 @@ nav {
 }
 
 .logo {
+    font-size: 1.5em;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.logo i {
+    font-size: 1em; /* Simgenin boyutunu ayarlayın */
+    color: #ffcc66; /* Simgenin rengini ayarlayın */
+}
+
+.logo {
     font-size: 1.8em; /* Küçültülmüş logo boyutu */
     font-style: italic;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
