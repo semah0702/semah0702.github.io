@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #36BA98;
+    background-color: #222831;
     color: #333;
 }
 
@@ -47,7 +47,7 @@ nav {
 }
 
 #home {
-    background: #f3eded;
+    background: #76ABAE;
 }
 
 #home .external-link {
