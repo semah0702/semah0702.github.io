@@ -1,13 +1,15 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #f9f6f1;
+    color: #333;
 }
 
 header {
-    background: #333;
-    color: white;
+    background: #a3d8f4;
+    color: #333;
     padding: 1em 0;
 }
 
@@ -22,6 +24,7 @@ nav {
 
 .logo {
     font-size: 1.5em;
+    font-style: italic;
 }
 
 .nav-links {
@@ -31,17 +34,47 @@ nav {
 }
 
 .nav-links a {
-    color: white;
+    color: #333;
     text-decoration: none;
 }
 
 .section {
     padding: 4em 1em;
     text-align: center;
+    background-color: #d3e2e6;
+    border-radius: 8px;
+    margin: 2em;
 }
 
 #home {
     background: #f4f4f4;
+}
+
+#home .external-link {
+    display: inline-block;
+    margin-top: 1em;
+    color: #007bff;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.about-text {
+    max-width: 600px;
+    text-align: left;
 }
 
 #projects .projects-grid {
@@ -52,7 +85,7 @@ nav {
 }
 
 .project-card {
-    background: white;
+    background: #fff;
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 1em;
@@ -60,8 +93,8 @@ nav {
 }
 
 footer {
-    background: #333;
-    color: white;
+    background: #a3d8f4;
+    color: #333;
     text-align: center;
     padding: 1em 0;
 }
@@ -78,4 +111,27 @@ input, textarea {
     padding: 0.5em;
     border: 1px solid #ddd;
     border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contact-box {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    background: #f4e1d2;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #a3d8f4;
+    color: #333;
+    border: none;
+    padding: 0.5em;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
 }
