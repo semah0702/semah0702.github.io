@@ -3,15 +3,17 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #222831;
-    color: #333;
+    background-color: #0e0e10;
+    color: #dcdcdc;
 }
 
 header {
-    size: 20px;
-    background: #dbceb0;
-    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    background: #1f1f23;
+    color: #dcdcdc;
     padding: 1em 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 nav {
@@ -24,8 +26,9 @@ nav {
 }
 
 .logo {
-    font-size: 1.5em;
+    font-size: 2em;
     font-style: italic;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 .nav-links {
@@ -35,26 +38,29 @@ nav {
 }
 
 .nav-links a {
-    color: #333;
+    color: #dcdcdc;
     text-decoration: none;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
 }
 
 .section {
     padding: 4em 1em;
     text-align: center;
-    background-color: #d3e2e6;
-    border-radius: 8px;
+    background-color: #1f1f23;
+    border: 2px solid #dcdcdc;
+    border-radius: 12px;
     margin: 2em;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
 
 #home {
-    background: #76ABAE;
+    background: #2c2c31;
 }
 
 #home .external-link {
     display: inline-block;
     margin-top: 1em;
-    color: #f5c16c;
+    color: #ffcc66;
     text-decoration: none;
     font-style: italic;
 }
@@ -71,11 +77,14 @@ nav {
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
+    border: 4px solid #dcdcdc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
 .about-text {
     max-width: 700px;
-    text-align: left;
+    text-align: justify;
+    font-size: 18px;
 }
 
 #projects .projects-grid {
@@ -86,16 +95,17 @@ nav {
 }
 
 .project-card {
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    background: #2c2c31;
+    border: 2px solid #dcdcdc;
+    border-radius: 8px;
     padding: 1em;
     width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
 footer {
-    background: #dbceb0;
-    color: #333;
+    background: #1f1f23;
+    color: #dcdcdc;
     text-align: center;
     padding: 1em 0;
 }
@@ -109,11 +119,12 @@ form {
 }
 
 input, textarea {
-    background: #36BA98;
-    padding: 0.10em;
-    border: 1px solid #ddd;
+    background: #2c2c31;
+    padding: 0.5em;
+    border: 1px solid #dcdcdc;
     border-radius: 5px;
     font-family: 'Courier New', Courier, monospace;
+    color: #dcdcdc;
 }
 
 .contact-box {
@@ -121,22 +132,22 @@ input, textarea {
     bottom: 0;
     right: 0;
     width: 200px;
-    height: 300px; 
-    background: #E76F51;
-    opacity: 0.4;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    height: 330px; 
+    background: #2c2c31;
+    opacity: 0.8;
+    border: 2px solid #dcdcdc;
+    border-radius: 12px;
     padding: 1em;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
 
 button {
     background-color: #aa530e;
-    color: #333;
+    color: #dcdcdc;
     border: none;
     padding: 0.5em;
     border-radius: 5px;
     cursor: pointer;
     font-family: 'Courier New', Courier, monospace;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
 }
