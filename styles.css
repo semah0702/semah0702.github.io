@@ -1,18 +1,19 @@
 /* Genel Stil */
 body {
-    font-family: 'Arial', sans-serif;
+    background-color: #D5E8D4; /* Açık pastel su yeşili */
+    font-family: 'Courier New', Courier, monospace; /* Yazı kod görünümü */
     line-height: 1.6;
     color: #333;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
 }
 
 /* Başlık ve Navigasyon */
 header {
-    background: #333;
     color: #fff;
-    padding: 10px 0;
+    padding: 20px;
+    background-color: #D2B48C; /* Pastel kahverengi */
+
 }
 
 nav {
@@ -29,6 +30,7 @@ nav {
 }
 
 .nav-links {
+    font-size: 14px; /* Daha küçük yazı */
     list-style: none;
     display: flex;
     margin: 0;
@@ -79,6 +81,15 @@ nav {
     object-fit: cover;
     margin-bottom: 20px;
 }
+
+.contact-box {
+    background-color: gold; /* Arkaplan rengi altın rengi yapar */
+    border-radius: 10px; /* Köşeleri yuvarlar */
+    padding: 20px; /* İçerik ile kenar boşlukları arasına 20px boşluk bırakır */
+    margin-top: 20px; /* Yukarıdan 20px boşluk bırakır */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Hafif bir gölge ekler */
+}
+
 
 .about-content {
     display: flex;
