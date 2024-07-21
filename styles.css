@@ -1,6 +1,5 @@
-/* Genel Stil */
 body {
-    background-color: #B5C99A; /* Açık pastel su yeşili */
+    background-color: #D5E8D4; /* Açık pastel su yeşili */
     font-family: 'Courier New', Courier, monospace; /* Yazı kod görünümü */
     line-height: 1.6;
     color: #333;
@@ -12,7 +11,8 @@ body {
 header {
     color: #fff;
     padding: 20px;
-    background-color: #862B0D; /* Koyu kırmızı */
+    background-color: #e46161; /*
+
 }
 
 nav {
@@ -35,7 +35,7 @@ nav {
 
 .logo i {
     font-size: 1em; /* Simgenin boyutunu ayarlayın */
-    color: #FFC95F; /* Simgenin rengini ayarlayın */
+    color: #ffcc66; /* Simgenin rengini ayarlayın */
 }
 
 .nav-links {
@@ -45,10 +45,10 @@ nav {
 }
 
 .nav-links a {
-    color: #FFF9C9; /* Açık krem */
+    color: #dcdcdc;
     text-decoration: none;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
-}
+
 
 /* Ana Bölümler */
 .section {
@@ -57,7 +57,7 @@ nav {
 }
 
 #home {
-    background: #FFF9C9; /* Açık krem */
+    background: #cbf078;
 }
 
 #about {
@@ -65,7 +65,7 @@ nav {
 }
 
 #projects {
-    background: #FFF9C9; /* Açık krem */
+    background: #cbf078;
 }
 
 #contact {
@@ -82,15 +82,13 @@ nav {
 }
 
 .contact-box {
-    background-color: #FFC95F; /* Altın sarısı */
+    background-color: #f1b963;
     border-radius: 10px; /* Köşeleri yuvarlar */
     padding: 20px; /* İçerik ile kenar boşlukları arasına 20px boşluk bırakır */
     margin-top: 20px; /* Yukarıdan 20px boşluk bırakır */
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Hafif bir gölge ekler */
-    position: fixed; /* Sabit pozisyon */
-    bottom: 20px; /* Ekranın altından 20px yukarıda */
-    right: 20px; /* Ekranın sağından 20px solda */
 }
+
 
 .about-content {
     display: flex;
@@ -117,7 +115,7 @@ nav {
     padding: 20px;
     margin: 10px;
     width: calc(33.333% - 40px);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
     text-align: center;
 }
 
@@ -200,3 +198,4 @@ footer p {
     height: auto;
     display: block;
 }
+
