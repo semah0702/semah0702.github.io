@@ -12,7 +12,7 @@ body {
 header {
     color: #fff;
     padding: 20px;
-    background-color: #D2B48C; /* Pastel kahverengi */
+    background-color: #e46161; /*
 
 }
 
@@ -58,7 +58,7 @@ nav {
 }
 
 #home {
-    background: #e0e0e0;
+    background: #cbf078;
 }
 
 #about {
@@ -66,7 +66,7 @@ nav {
 }
 
 #projects {
-    background: #f9f9f9;
+    background: #cbf078;
 }
 
 #contact {
@@ -83,7 +83,7 @@ nav {
 }
 
 .contact-box {
-    background-color: gold; /* Arkaplan rengi altın rengi yapar */
+    background-color: #f1b963;
     border-radius: 10px; /* Köşeleri yuvarlar */
     padding: 20px; /* İçerik ile kenar boşlukları arasına 20px boşluk bırakır */
     margin-top: 20px; /* Yukarıdan 20px boşluk bırakır */
