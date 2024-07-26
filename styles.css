@@ -11,7 +11,7 @@ body {
 header {
     color: #fff;
     padding: 20px;
-    background-color: #e46161; 
+    background-color: #ff813f; 
 
 }
 
@@ -35,7 +35,7 @@ nav {
 
 .logo i {
     font-size: 1em; /* Simgenin boyutunu ayarlayın */
-    color: #ffcc66; /* Simgenin rengini ayarlayın */
+    color: rgba(0, 0, 0, 9); /* Simgenin rengini ayarlayın */
 }
 
 .nav-links {
@@ -84,10 +84,10 @@ nav {
 
 .contact-box {
     background-color: #f1b963;
-    border-radius: 10px; /* Köşeleri yuvarlar */
+    border-radius: 0px; /* Köşeleri yuvarlar */
     padding: 20px; /* İçerik ile kenar boşlukları arasına 20px boşluk bırakır */
-    margin-top: 20px; /* Yukarıdan 20px boşluk bırakır */
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Hafif bir gölge ekler */
+    margin-top: 30px; /* Yukarıdan 20px boşluk bırakır */
+    box-shadow: 4px 0px 4px rgba(0, 0, 0, 9); /* Hafif bir gölge ekler */
 }
 
 
@@ -110,8 +110,8 @@ nav {
 }
 
 .project-card {
-    background: #fff;
-    border: 1px solid #ddd;
+    background: #ff813f;
+    border: 5px solid #ddd;
     border-radius: 8px;
     padding: 20px;
     margin: 10px;
@@ -141,17 +141,17 @@ nav {
 
 /* İletişim Formu */
 form {
-    max-width: 600px;
+    max-width: 500px;
     margin: 0 auto;
-    padding: 20px;
-    background: #fff;
-    border-radius: 8px;
+    padding: 50px;
+    background: #5f9ea0;
+    border-radius: 18px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 form label {
     display: block;
-    margin: 10px 0 5px;
+    margin: 0 0 5px;
 }
 
 form input, form textarea {
@@ -163,7 +163,7 @@ form input, form textarea {
 }
 
 form button {
-    background: #007bff;
+    background: #ff813f;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -173,7 +173,7 @@ form button {
 }
 
 form button:hover {
-    background: #0056b3;
+    background: #dcdcdc;
 }
 
 /* Footer */
